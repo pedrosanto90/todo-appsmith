@@ -1,0 +1,7 @@
+{
+  "delete": "users",
+  "deletes": [{
+    "q": {_id: ObjectId('{{this.params.userId}}')},
+    "limit": 1,
+  }]
+}

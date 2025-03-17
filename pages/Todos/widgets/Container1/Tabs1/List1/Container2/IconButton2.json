@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "edit",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "g669yfhfgn",
+  "leftColumn": 50,
+  "minWidth": 50,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 50,
+  "mobileRightColumn": 54,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{data.activeTodo = currentIndex}}",
+  "parentColumnSpace": 5.78125,
+  "parentId": "ar2kfrrleh",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 54,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "r1pvfqj4qn",
+  "widgetName": "IconButton2"
+}

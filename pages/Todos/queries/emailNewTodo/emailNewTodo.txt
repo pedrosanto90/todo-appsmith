@@ -1,0 +1,3 @@
+<h1>A new task was added</h1>
+<h3>Task</h3>
+<p>{{appsmith.store.newUserTodo}}</p>

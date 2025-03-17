@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67ceb69a859f1327ce5a3d8d_ba82d57c-bd6d-4620-b01d-d0e8bd6a376b",
+  "id": "Todos_app",
+  "unpublishedCollection": {
+    "name": "app",
+    "pageId": "Todos",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
