@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 34,
   "shouldTruncate": false,
-  "text": "{{appsmith.store.userName}} {{appsmith.store.userLastName}}",
+  "text": "{{appsmith.store.userName}} {{appsmith.store.lastName}}",
   "textAlign": "LEFT",
   "textColor": "white",
   "topRow": 0,

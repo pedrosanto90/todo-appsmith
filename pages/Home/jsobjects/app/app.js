@@ -23,33 +23,14 @@ export default {
 				}
   },
 	async login() {
-    try {
-        const userData = await get_user.run({ username: login_username.text });
-			
-				if (!userData || userData.length === 0) {
-							showAlert('User not found', 'error');
-						return;
-					}
-			
-				storeValue('userId', userData[0]._id)
-				storeValue('userName', userData[0].name)
-				storeValue('userLastName', userData[0].last_name)
-				storeValue('userEmail', userData[0].email)
-
-        const isMatch = await dcodeIO.bcrypt.compare(login_passwd.text, userData[0].password);
-
-        if (isMatch) {
-						closeModal(login.name);
-						navigateTo('Todos', {}, 'SAME_WINDOW');
-            showAlert('Login Ok', 'success');
-        } else {
-            showAlert('Incorrect username or password', 'error');
-            return 1;
-        }
-    } catch (error) {
-        console.error('Login Error:', error);
-        showAlert('Something went wrong', 'error');
-        return 1;
-    }
+		storeValue('user_id', Login.data.user_id)
+		storeValue('userEmail', Login.data.userEmail)
+		storeValue('userName', Login.data.name)
+		storeValue('lastName', Login.data.last_name)
+		storeValue('jwt_token', Login.data.access_token)
+		return Login.run()
+		.then(() => {closeModal(login.name)})
+		.then(() => {navigateTo('Todos')})
+		.then(() => {showAlert('Logged', 'success')})
 	}
 }

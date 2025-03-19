@@ -1,0 +1,7 @@
+{
+    "email": {{create_acc_email.text}},
+    "nome": {{create_acc_name.text}},
+    "password": {{create_acc_password.text}},
+    "ultimo_nome": {{create_acc_lastName.text}},
+    "username": {{create_acc_username.text}}
+}
