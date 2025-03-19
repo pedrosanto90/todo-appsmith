@@ -1,6 +1,6 @@
 {
   "gitSyncId": "67ceb69a859f1327ce5a3d8d_16f316e9-5cf6-42ef-a66d-6bca58ddcef8",
-  "id": "Home_app.hashPassword",
+  "id": "Home_app.createAccount",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -23,8 +23,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "app.hashPassword",
-    "name": "hashPassword",
+    "fullyQualifiedName": "app.createAccount",
+    "name": "createAccount",
     "pageId": "Home",
     "userSetOnLoad": false
   }

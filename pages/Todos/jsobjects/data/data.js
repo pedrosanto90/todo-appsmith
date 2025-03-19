@@ -1,5 +1,5 @@
 export default {
-	todos: getTodos.data,
+	todos: GetTodos.data,
 	activeTodo: undefined,
 	dummyTodos: [
 		{title: 'use the input to add a todo', completed: true},

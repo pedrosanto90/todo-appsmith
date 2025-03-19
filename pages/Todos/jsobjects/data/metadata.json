@@ -9,7 +9,7 @@
     "variables": [
       {
         "name": "todos",
-        "value": "getTodos.data"
+        "value": "GetTodos.data"
       },
       {
         "name": "activeTodo",

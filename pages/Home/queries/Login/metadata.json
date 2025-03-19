@@ -17,12 +17,7 @@
       "formData": {
         "apiContentType": "application/json"
       },
-      "headers": [
-        {
-          "key": "Authorization",
-          "value": "Bearer {{appsmith.store.jwt_token}}"
-        }
-      ],
+      "headers": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
@@ -47,9 +42,6 @@
     "dynamicBindingPathList": [
       {
         "key": "body"
-      },
-      {
-        "key": "headers[0].value"
       }
     ],
     "executeOnLoad": false,

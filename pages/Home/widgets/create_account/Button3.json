@@ -32,7 +32,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{app.hashPassword();}}",
+  "onClick": "{{app.createAccount();}}",
   "parentId": "rgf0ttlpip",
   "placement": "CENTER",
   "recaptchaType": "V3",
