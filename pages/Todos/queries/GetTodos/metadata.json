@@ -52,9 +52,9 @@
         "key": "queryParameters[0].value"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "GetTodos",
     "pageId": "Todos",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
