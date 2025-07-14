@@ -31,9 +31,9 @@
         "key": "formData.send.to"
       }
     ],
-    "executeOnLoad": false,
     "name": "emailNewAccount",
     "pageId": "Home",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

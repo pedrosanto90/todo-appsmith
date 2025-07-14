@@ -29,10 +29,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "app.updateTodo",
     "name": "updateTodo",
     "pageId": "Todos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

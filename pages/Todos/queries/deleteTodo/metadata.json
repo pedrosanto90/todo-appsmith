@@ -103,9 +103,9 @@
         "key": "formData.delete.query.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "deleteTodo",
     "pageId": "Todos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

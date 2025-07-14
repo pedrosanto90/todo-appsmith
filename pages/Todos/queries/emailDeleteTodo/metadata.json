@@ -34,9 +34,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "emailDeleteTodo",
     "pageId": "Todos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

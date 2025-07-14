@@ -102,9 +102,9 @@
         "key": "formData.insert.documents.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "create_user",
     "pageId": "Home",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

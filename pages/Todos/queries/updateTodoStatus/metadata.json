@@ -106,9 +106,9 @@
         "key": "formData.updateMany.update.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "updateTodoStatus",
     "pageId": "Todos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

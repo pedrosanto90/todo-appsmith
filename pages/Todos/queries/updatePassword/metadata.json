@@ -107,9 +107,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "updatePassword",
     "pageId": "Todos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

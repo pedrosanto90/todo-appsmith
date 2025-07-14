@@ -104,9 +104,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "deleteUser",
     "pageId": "Todos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

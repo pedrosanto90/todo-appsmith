@@ -35,9 +35,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "emailNewTodo",
     "pageId": "Todos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

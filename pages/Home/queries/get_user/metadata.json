@@ -100,9 +100,9 @@
         "key": "formData.find.query.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "get_user",
     "pageId": "Home",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

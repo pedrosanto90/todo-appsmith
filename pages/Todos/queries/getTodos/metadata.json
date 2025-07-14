@@ -103,9 +103,9 @@
         "key": "formData.find.query.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "getTodos",
     "pageId": "Todos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }
